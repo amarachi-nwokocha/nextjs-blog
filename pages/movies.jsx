@@ -1,6 +1,14 @@
 import styles from "../styles/Home.module.css";
 
 export default function MovieSec() {
+  // const [movies, setMovies] = useState([]);
+  // const getMovie=async ()=>{
+  //     const response=await fetch("https://api.themoviedb.org/3/movie/now_playing?api_key=<KEY>")
+  //     const data= await  response.json();
+  //     setMovies(data)
+  //     }
+  //     useEffect(() => {
+  //         getMovie()}, []);
   return (
     <div className={styles.movieSec}>
       <h1>Movie Section</h1>
